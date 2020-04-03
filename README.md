@@ -1,4 +1,4 @@
-# smart-pay-plus
+# smart-pay-plus 【待完善】
 
 #### 介绍
 plus
