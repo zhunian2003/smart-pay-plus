@@ -1,0 +1,38 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://sh-cynosdbmysql-grp-8fxddmgs.sql.tencentcdb.com:27767/ry_vue?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: xxx
+    druid:
+      enable: true
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 6000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT GETDATE()
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      query-timeout: 30000
+      validation-query-timeout: 30000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      filters.commons-log.connection-logger-name: stat,wall,log4j
+      filter.wall.config.multi-statement-allow: true
+      connect-properties.druid.stat.mergeSql: true;
+      stat.slowSqlMillis: 60000
+    driverLocation: D://apache-maven-3.3.3//repo//com//microsoft//sqlserver//sqljdbc4//4.0//sqljdbc4-4.0.jar
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: xxx
+    timeout: 10000
