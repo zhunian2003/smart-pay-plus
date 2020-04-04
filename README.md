@@ -1,4 +1,4 @@
-# smart-pay-plus 【待完善】
+# smart-pay-plus 
 
 #### 项目简介
 一个基于 Spring Boot 2.2.5 、 Mybaties Plus、 JWT、Spring Security、Redis、Vue的前后端分离的支付系统.
@@ -9,11 +9,11 @@
 [在线体验](http://122.51.99.227:8088/)
 
 #### 技术选型
--核心框架：Spring Boot 2.x
--安全框架：Apache Shiro 1.4
--持久层框架：MyBatis 3.x
--数据库连接池：Druid 1.x
--前台界面 Element UI
+- 核心框架：Spring Boot 2.x
+- 安全框架：Apache Shiro 1.4
+- 持久层框架：MyBatis 3.x
+- 数据库连接池：Druid 1.x
+- 前台界面 Element UI
 
 #### 系统功能
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
@@ -47,9 +47,9 @@
 </table>
 
 #### 软件需求
--JDK1.8
--Maven3.0+
--MySQL5.5+或者MsSQL(可扩展支持Oracle数据库等)
+- JDK1.8
+- Maven3.0+
+- MySQL5.5+或者MsSQL(可扩展支持Oracle数据库等)
 
 #### 本地部署
 
