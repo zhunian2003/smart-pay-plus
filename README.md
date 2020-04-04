@@ -57,7 +57,7 @@
 - 通过git下载源码
 - 数据库脚本（待补充）
 - 前后端分离部署（待补充）
-
+- 在线体验地址 http://122.51.99.227:8088/ 账号：user 密码：123456
 - 扫码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 - 条码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 
