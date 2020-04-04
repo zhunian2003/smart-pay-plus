@@ -5,9 +5,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-      url: jdbc:sqlserver://122.51.99.227:1333;DatabaseName=vue
+      url: jdbc:sqlserver://122.51.99.227:1433;DatabaseName=vue
       username: super
-      password: ENC(aaR+vVtnwbVfRLpKz8GxwANPQLEQAKsO)
+      password: xxx
       enable: true
       initial-size: 5
       min-idle: 5
