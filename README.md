@@ -26,13 +26,20 @@
 13. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 
 #### 系统预览
-
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210648_7884cb8c_535810.jpeg "1.jpg")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210719_980450a5_535810.jpeg "2.jpg")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210729_26a6d8ca_535810.jpeg "3.jpg")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210745_39283dd3_535810.jpeg "4.jpg")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210754_2b564945_535810.jpeg "5.jpg")
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0404/210802_47511828_535810.jpeg "6.jpg")
+<table>
+    <tr>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210648_7884cb8c_535810.jpeg"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210719_980450a5_535810.jpeg"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210729_26a6d8ca_535810.jpeg"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210745_39283dd3_535810.jpeg"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210754_2b564945_535810.jpeg"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/210802_47511828_535810.jpeg"/></td>
+    </tr>
+</table>
 
 #### 使用说明
 
