@@ -1,14 +1,19 @@
 # smart-pay-plus 【待完善】
 
 #### 项目简介
-一个基于 Spring Boot 2.2.5 、 Mybaties Plus、 JWT、Spring Security、Redis、Vue的前后端分离的支付系统
+一个基于 Spring Boot 2.2.5 、 Mybaties Plus、 JWT、Spring Security、Redis、Vue的前后端分离的支付系统.
+目前已经接入支付渠道：微信(条码支付、扫码支付)、支付宝(条码支付、扫码支付).
 
 #### 演示地址
->[在线体验](http://122.51.99.227:8088/)
 >陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
+[在线体验](http://122.51.99.227:8088/)
 
-#### 软件架构
-软件架构说明
+#### 技术选型
+-核心框架：Spring Boot 2.x
+-安全框架：Apache Shiro 1.4
+-持久层框架：MyBatis 3.x
+-数据库连接池：Druid 1.x
+-前台界面 Element UI
 
 #### 系统功能
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
@@ -41,19 +46,19 @@
     </tr>
 </table>
 
-#### 使用说明
+#### 软件需求
+-JDK1.8
+-Maven3.0+
+-MySQL5.5+或者MsSQL(可扩展支持Oracle数据库等)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
+#### 本地部署
 
 1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+2.  通过git下载源码
 
+>项目的发展离不开您的支持，请作者喝杯咖啡吧。
+![微信](https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png "d6ce23f0a5aac17fc85abff9eaa4a12.png")
+![支付宝](https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png "e463a45c93a284276ec59708d86fe92.png")
 
 #### 码云特技
 
