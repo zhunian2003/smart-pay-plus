@@ -53,8 +53,13 @@
 
 #### 本地部署
 
-1.  Fork 本仓库
-2.  通过git下载源码
+- Fork 本仓库
+- 通过git下载源码
+- 数据库脚本（待补充）
+- 前后端分离部署（待补充）
+
+- 扫码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
+- 条码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 
 >项目的发展离不开您的支持，请作者喝杯咖啡吧。
 
