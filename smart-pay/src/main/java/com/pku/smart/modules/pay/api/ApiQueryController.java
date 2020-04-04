@@ -129,11 +129,11 @@ public class ApiQueryController {
             errorMessage = "reqKey is null[mchId=" + mchId + "] record in db.";
             return errorMessage;
         }
-        PayChannel payChannel = payChannelService.selectPayChannel(channelId, mchId);
-        if (mchInfo == null) {
-            errorMessage = "Can't found payChannel[mchId=" + mchId + "] record in db.";
-            return errorMessage;
-        }
+        //PayChannel payChannel = payChannelService.selectPayChannel(channelId, mchId);
+        //if (mchInfo == null) {
+        //    errorMessage = "Can't found payChannel[mchId=" + mchId + "] record in db.";
+        //    return errorMessage;
+        //}
 
         // 验证签名数据
         boolean verifyFlag = PayUtils.verifyPaySign(params, reqKey);
@@ -142,8 +142,8 @@ public class ApiQueryController {
             return errorMessage;
         }
 
-        String channelName = payChannel.getChannelName();
-        params.put("channelName", channelName);
+        //String channelName = payChannel.getChannelName();
+        //params.put("channelName", channelName);
 
         return params;
     }

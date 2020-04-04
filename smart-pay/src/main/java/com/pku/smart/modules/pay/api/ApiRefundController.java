@@ -98,7 +98,7 @@ public class ApiRefundController {
      * @param params
      * @return
      */
-    @RequestMapping(value = "/api/refund/create_order")
+    @RequestMapping(value = "/refund/create_order")
     public String refundOrder(@RequestParam String params) {
         _log.info("###### 开始接收商户统一退款请求 ######");
 
