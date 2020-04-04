@@ -57,8 +57,13 @@
 2.  通过git下载源码
 
 >项目的发展离不开您的支持，请作者喝杯咖啡吧。
-![微信](https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png "d6ce23f0a5aac17fc85abff9eaa4a12.png")
-![支付宝](https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png "e463a45c93a284276ec59708d86fe92.png")
+
+<table>
+    <tr>
+        <td>![微信](https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png "d6ce23f0a5aac17fc85abff9eaa4a12.png")</td>
+        <td>![支付宝](https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png "e463a45c93a284276ec59708d86fe92.png")</td>
+    </tr>
+</table>
 
 #### 码云特技
 
