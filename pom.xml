@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.pku</groupId>
-    <artifactId>smart-pay</artifactId>
+    <artifactId>smart-pay-plus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>smart-pay</name>
+    <name>smart-pay-plus</name>
     <description>统一支付管理系统</description>
 
     <properties>
