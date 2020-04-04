@@ -1,0 +1,65 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      url: jdbc:sqlserver://122.51.99.227:1333;DatabaseName=vue
+      username: super
+      password: Founder123
+      enable: true
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 6000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT GETDATE()
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      query-timeout: 30000
+      validation-query-timeout: 30000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      filters.commons-log.connection-logger-name: stat,wall,log4j
+      filter.wall.config.multi-statement-allow: true
+      connect-properties.druid.stat.mergeSql: true;
+      stat.slowSqlMillis: 60000
+    driverLocation: D://apache-maven-3.3.3//repo//com//microsoft//sqlserver//sqljdbc4//4.0//sqljdbc4-4.0.jar
+  cache:
+    type: redis
+  redis:
+    database: 0
+    host: 122.51.99.227
+    port: 6379
+    password: p@ssword
+    timeout: 10000
+
+config:
+  ali:
+    notify_url: http://zhunian.free.idcfengye.com/%s/%s/notify/pay/aliPayNotifyRes.htm
+    return_url: http://zhunian.free.idcfengye.com/%s/%s/return/pay/aliPayNotifyRes.htm
+    bill_path: D:\\data
+    pay_back_flag: "0"  #是否运行部分退费
+  wx:
+    certRootPath: D:\MyTools\Cert
+    notifyUrl: http://zhunian.free.idcfengye.com/%s/%s/notify/%s/wxPayNotifyRes.htm
+    bill_path: D:\\data
+    sign_type: MD5
+    pay_back_flag: "0"  #是否运行部分退费
+
+#多数据源的配置
+#dynamic:
+#  datasource:
+#    slave1:
+#      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#      url: jdbc:sqlserver://localhost:1433;DatabaseName=xxx
+#      username: sa
+#      password: xxx
+#    slave2:
+#      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#      url: jdbc:sqlserver://localhost:1433;DatabaseName=xxx
+#      username: sa
+#      password: xxx
