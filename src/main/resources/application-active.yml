@@ -7,7 +7,7 @@ spring:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
       url: jdbc:sqlserver://122.51.99.227:1333;DatabaseName=vue
       username: super
-      password: Founder123
+      password: ENC(aaR+vVtnwbVfRLpKz8GxwANPQLEQAKsO)
       enable: true
       initial-size: 5
       min-idle: 5
