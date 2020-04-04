@@ -60,8 +60,12 @@
 
 <table>
     <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png"/>微信</td>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png"/>支付宝</td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png"/></td>
+    </tr>
+    <tr>
+        <td align="center">微信</td>
+        <td align="center">支付宝</td>
     </tr>
 </table>
 
