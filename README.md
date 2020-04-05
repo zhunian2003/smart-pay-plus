@@ -85,4 +85,5 @@
 </table>
 
 #### 码云特技
-- 码云地址 https://gitee.com/zhunian/smart-pay-plus
+- 码云后台地址 https://gitee.com/zhunian/smart-pay-plus
+- 码云前台地址 https://gitee.com/zhunian/smart-pay-plus-vue
