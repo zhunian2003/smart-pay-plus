@@ -57,9 +57,17 @@
 
 - Fork 本仓库
 - 通过git下载源码
-- 数据库脚本（待补充）
+- 打包 maven命令 mvn clean package （注意pom.xml配置jar包或war包）
+- ①如果打jar包，可输入 java -jar smart-pay.jar 启动。 访问：http://127.0.0.1:8888
+- ②如果打war包，将生成的 smart-pay.jar 拷贝到tomcat的webapps目录。 访问：http://127.0.0.1:8080/smart-pay （8080为tomcat端口）
+
+- 前端打包见 https://gitee.com/zhunian/smart-pay-plus-vue
+
 - 前后端分离部署（待补充）
 - 在线体验地址 http://122.51.99.227:8088/ 账号：user 密码：123456
+
+- [docker部署系列随笔](https://www.cnblogs.com/zhunian/p/12602949.html)
+
 - 扫码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 - 条码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 
