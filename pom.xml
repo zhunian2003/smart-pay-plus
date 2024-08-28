@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>smart-pay-plus</name>
-    <description>统一支付管理系统</description>
+    <description>统一支付管理系统V1</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
