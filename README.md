@@ -5,7 +5,7 @@
 目前已经接入支付渠道：微信(条码支付、扫码支付)、支付宝(条码支付、扫码支付).
 
 #### 演示地址
-> 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
+> 演示服务器升级。谢谢各位小伙伴。(暂不可用)
 - [前台界面源码](https://gitee.com/zhunian/smart-pay-plus-vue)
 - [在线体验](http://122.51.99.227:8088/)
 
@@ -70,19 +70,6 @@
 
 - 扫码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
 - 条码支付Demo [Java调用](https://gitee.com/zhunian/smart-pay-plus/) [C#调用](https://gitee.com/zhunian/smart-pay-plus/) [Delphi调用](https://gitee.com/zhunian/smart-pay-plus/) （待补充）
-
->项目的发展离不开您的支持，请作者喝杯咖啡吧。
-
-<table>
-    <tr>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212505_384f0630_535810.png"/></td>
-        <td><img src="https://images.gitee.com/uploads/images/2020/0404/212518_d36802e0_535810.png"/></td>
-    </tr>
-    <tr>
-        <td align="center">微信</td>
-        <td align="center">支付宝</td>
-    </tr>
-</table>
 
 #### 码云特技
 - 码云后台地址 https://gitee.com/zhunian/smart-pay-plus
